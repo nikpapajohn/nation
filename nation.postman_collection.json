@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "96deb63f-e168-4a10-b80b-feebe0c57d38",
+		"name": "nation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "16358610"
+	},
+	"item": [
+		{
+			"name": "countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4585/nation/countries"
+			},
+			"response": []
+		},
+		{
+			"name": "regions",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "languages-per-country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4585/nation/languages-per-country/86"
+			},
+			"response": []
+		},
+		{
+			"name": "stats-per-country-year",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4585/nation/stats-per-country"
+			},
+			"response": []
+		},
+		{
+			"name": "stats-with-continent-region",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
